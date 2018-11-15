@@ -7,7 +7,7 @@ pipeline {
  		sh '''
                     echo "Multiline shell steps works too"
 		    pwd
-		    CD /home/vagrant/projects/robot
+		    cd /home/vagrant/projects/robot
                     ls -lah
                 '''
             }
