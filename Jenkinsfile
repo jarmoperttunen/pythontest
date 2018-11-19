@@ -8,8 +8,8 @@ pipeline {
                     echo "Multiline shell steps works too"
 		    pwd
                     ls -lah
-		    ls /usr/bin
-		    sudo pip install robotframework
+		    sudo --help
+		    
 		   '''
             }
         }
