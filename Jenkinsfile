@@ -7,7 +7,8 @@ pipeline {
  		sh '''
                     echo "Multiline shell steps works too"
 		    pwd
-                    pybot --help
+                    ls /usr/bin
+		    whereis robot
 		    
 		    
 		   '''
