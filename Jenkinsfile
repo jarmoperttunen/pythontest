@@ -6,8 +6,8 @@ pipeline {
                 sh 'echo "Hello Uni"'
  		sh '''
                     echo "Multiline shell steps works too"
-		    pwd
-		    ls /usr/bin
+		    /pwd
+		    ls /usr/bin/
                    		    
 		   '''
             }
