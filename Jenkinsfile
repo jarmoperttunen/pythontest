@@ -9,7 +9,7 @@ pipeline {
 		    pwd
                     ls -lah
 		    ls /usr/bin
-		    pip --help
+		    pip install robotframework
 		   '''
             }
         }
