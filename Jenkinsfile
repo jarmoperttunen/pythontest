@@ -9,6 +9,7 @@ pipeline {
 		    pwd
 		    cd /home
                     ls -lah
+		    robot ./robot/valid_login.robot
                 '''
             }
         }

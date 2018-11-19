@@ -7,7 +7,7 @@ Documentation     A resource file with reusable keywords and variables.
 Library           SeleniumLibrary
 
 *** Variables ***
-${SERVER}         www.jiipeedomain.online/
+${SERVER}         www.codethis.online/
 ${BROWSER}        Firefox
 ${DELAY}          0
 ${VALID USER}     demo
