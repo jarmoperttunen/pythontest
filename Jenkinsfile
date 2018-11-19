@@ -8,7 +8,7 @@ pipeline {
                     echo "Multiline shell steps works too"
 		    pwd
                     ls -lah
-		    robot --help
+		    ls /usr/bin |grep robot
 		   '''
             }
         }
