@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'echo "Hello Uni"'
+                sh 'echo $PATH'
  		sh '''
+		    robot ./robot/valid_login.robot
                     echo "Multiline shell steps works too"
 		    pwd
-		    ls /usr/bin/
-                   		    
+		                      		    
 		   '''
             }
         }
