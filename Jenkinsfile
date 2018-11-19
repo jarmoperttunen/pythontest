@@ -7,9 +7,8 @@ pipeline {
  		sh '''
                     echo "Multiline shell steps works too"
 		    pwd
-		    cd /home
                     ls -lah
-		    echo $PATH
+		    robot --help
 		   '''
             }
         }
