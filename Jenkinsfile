@@ -9,7 +9,7 @@ pipeline {
 		    pwd
                     whereis robot
 		    sudo --help
-		    
+		    robot --help
 		    
 		    
 		   '''
