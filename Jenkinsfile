@@ -8,7 +8,7 @@ pipeline {
                     echo "Multiline shell steps works too"
 		    pwd
                     whereis robot
-		    /usr/bin/robot --help
+		    sudo --help
 		    
 		    
 		    
