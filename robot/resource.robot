@@ -22,7 +22,7 @@ Open Browser To Login Page
 *** ${LOGIN URL}    ${BROWSER} ***
 ***    Maximize Browser Window ***
 ***    Set Selenium Speed    ${DELAY} ***
-***    Login Page Should Be Open ***
+Login Page Should Be Open
 
 
 Login Page Should Be Open
