@@ -18,8 +18,9 @@ ${ERROR URL}      http://${SERVER}/error.html
 
 *** Keywords ***
 Open Browser To Login Page
-    Open Browser    https://codethis.online/
     Set Selenium Timeout   5
+    Open Browser    https://codethis.online/
+    
 *** ${LOGIN URL}    ${BROWSER} ***
 ***    Maximize Browser Window ***
 ***    Set Selenium Speed    ${DELAY} ***
