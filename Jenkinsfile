@@ -7,11 +7,7 @@ pipeline {
  		sh '''
                     echo "Multiline shell steps works too"
 		    pwd
-                    whereis robot
-		    sudo --help
-		    pip --help
-		    pip install robotframework
-		    pip install robotframework-seleniumlibrary
+                    robot --help
 		    
 		   '''
             }
