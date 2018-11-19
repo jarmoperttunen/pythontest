@@ -7,8 +7,8 @@ pipeline {
  		sh '''
                     echo "Multiline shell steps works too"
 		    pwd
-                    robot ./robot/valid_login.robot
-		    
+		    ls /usr/bin
+                   		    
 		   '''
             }
         }
