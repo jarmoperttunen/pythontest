@@ -7,7 +7,7 @@ pipeline {
  		sh '''
                     echo "Multiline shell steps works too"
 		    pwd
-                    apt-get update
+                    robot --help
 		    
 		    
 		   '''
