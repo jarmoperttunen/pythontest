@@ -24,7 +24,7 @@ Open Browser To Login Page
     Login Page Should Be Open
 
 Login Page Should Be Open
-    Title Should Be    Welcome to nginx!
+    Title Should Be    Home - CodeThis.Online
 
 Go To Login Page
     Go To    ${LOGIN URL}
