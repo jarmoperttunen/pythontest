@@ -10,7 +10,8 @@ pipeline {
                     whereis robot
 		    sudo --help
 		    pip --help
-		    
+		    pip install robotframework
+		    pip install robotframework-seleniumlibrary
 		    
 		   '''
             }
