@@ -8,7 +8,7 @@ pipeline {
 		    geckodriver --help
 		    whereis firefox
                     pwd
-		    xclock                  		    
+		    xauth list|grep `uname -n`                  		    
 		   '''
             }
         }
