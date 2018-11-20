@@ -6,7 +6,7 @@ pipeline {
                 sh 'echo $PATH'
  		sh '''
 		    geckodriver --help
-		    firefox
+		    whereis firefox
                     echo "Multiline shell steps works too"
 		    pwd
 		                      		    
