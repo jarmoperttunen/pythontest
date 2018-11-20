@@ -11,7 +11,7 @@ pipeline {
 		    export XAUTHORITY=/run/user/1000/gdm/Xauthority
 		    echo $XAUTHORITY
 		    echo $DISPLAY
-		    export DISPLAY=:0
+		    export DISPLAY=localhost:0
 		    echo $DISPLAY
 		    xclock                 		    
 		   '''
