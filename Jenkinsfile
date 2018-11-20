@@ -6,7 +6,7 @@ pipeline {
                 sh 'echo $PATH'
  		sh '''
 		    geckodriver --help
-		    robot ./robot/valid_login.robot
+		    firefox
                     echo "Multiline shell steps works too"
 		    pwd
 		                      		    
