@@ -7,9 +7,8 @@ pipeline {
  		sh '''
 		    geckodriver --help
 		    whereis firefox
-                    echo "Multiline shell steps works too"
-		    pwd
-		                      		    
+                    pwd
+		    xclock                  		    
 		   '''
             }
         }
