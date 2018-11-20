@@ -8,6 +8,8 @@ pipeline {
 		    geckodriver --help
 		    whereis firefox
                     pwd
+		    export XAUTHORITY=/run/user/1000/gdm/Xauthority
+		    echo $XAUTHORITY
 		    echo $DISPLAY
 		    export DISPLAY=:0
 		    echo $DISPLAY
