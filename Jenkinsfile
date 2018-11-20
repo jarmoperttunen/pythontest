@@ -9,7 +9,7 @@ pipeline {
 		    whereis firefox
                     pwd
 		    echo $DISPLAY
-		    export DISPLAY= :0
+		    export DISPLAY=:0
 		    echo $DISPLAY
 		    xclock                 		    
 		   '''
