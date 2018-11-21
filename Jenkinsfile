@@ -13,7 +13,7 @@ pipeline {
 		    echo $DISPLAY
 		    export DISPLAY=localhost:0.0
 		    echo $DISPLAY
-		    sudo - vagrant               		    
+		    sudo su - vagrant               		    
 		   '''
             }
         }
