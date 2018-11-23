@@ -11,7 +11,7 @@ pipeline {
 		    export XAUTHORITY=/run/user/1000/gdm/Xauthority
 		    echo $XAUTHORITY
 		    echo $DISPLAY
-		    export DISPLAY=localhost:99
+		    export DISPLAY=:0
 		    echo $DISPLAY
 		    robot ./robot/valid_login.robot            		    
 		   '''
