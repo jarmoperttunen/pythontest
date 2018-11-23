@@ -11,9 +11,9 @@ pipeline {
 		    export XAUTHORITY=/run/user/1000/gdm/Xauthority
 		    echo $XAUTHORITY
 		    echo $DISPLAY
-		    export DISPLAY=localhost:0.0
+		    export DISPLAY=localhost:99
 		    echo $DISPLAY
-		    sudo su - vagrant               		    
+		    robot /robot/valid_login.robot            		    
 		   '''
             }
         }
