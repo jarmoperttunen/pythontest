@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh 'echo $PATH'
  		sh '''
-		    geckodriver --help
+		    chromedriver --help
 		    whereis firefox
                     pwd
 		    export XAUTHORITY=/run/user/1000/gdm/Xauthority
