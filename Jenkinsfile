@@ -13,7 +13,7 @@ pipeline {
 		    echo $DISPLAY
 		    export DISPLAY=localhost:99
 		    echo $DISPLAY
-		    robot /robot/valid_login.robot            		    
+		    robot ./robot/valid_login.robot            		    
 		   '''
             }
         }
