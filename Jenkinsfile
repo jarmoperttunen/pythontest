@@ -13,7 +13,7 @@ pipeline {
 		    echo $DISPLAY
 		    export DISPLAY=:0
 		    echo $DISPLAY
-		    robot ./robot/valid_login.robot            		    
+		    robot ./robot/home_test.robot            		    
 		   '''
             }
         }
